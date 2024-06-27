@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* grids */
+.grid_container {
+    display: grid;
+    position: relative;
+    grid-template-areas: 
+     "header header"
+     "nav    nav"
+     "left   right"
+     "footer footer";
+   grid-template-columns: 10% 90%;
+   grid-template-rows: 8% 8% 76% 8%;
+   height: 100vh;
+   width: 100%;
+}
+
+/* header */
+
+header {
+    background-color: black;
+    grid-area: header;
+    color: white;
+    text-align: left;
+    font-size: 5vh;
+    font-family: 'Lucida Handwriting', cursive;
+    width: 100vw;
+}
+
+
+
+
+/* nav */
+nav {
+    background-color: black;
+    grid-area: nav;
+    width: 100vw;
+    height: 8vh;
+    
+}
+  
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 2.5vh;
+}
+
+nav a:hover {
+    color: red;
+}
+
+
+
+
+/* sideNav */
+
+.left {
+    background-color: black;
+    grid-area: left;
+    overflow: auto;
+}
+  
+
+.sideNav {
+    list-style-type: none;
+}
+
+.sideNav li a {
+    font-family: 'Lucida Handwriting', cursive;
+    color: white;
+    text-decoration: none;
+    font-size: 3vh;
+    display: block;
+    padding: 5px 0px;
+
+}
+
+.sideNav li a:hover {
+    color: red;
+    background-color: lightgrey;
+}
+
+
+
+/* Contents */
+
+.right {
+    grid-area: right;
+    background-image: url(../Assets/minimalist.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow: auto;
+}
+  
+
+h2 {
+    text-align: center;
+    font-family: 'Lucida Handwriting', cursive; 
+    padding: 0 5vw;
+    font-size: 20px;
+}
+
+.container {
+    background-color: lightgrey;
+    margin: 0 7vw;
+    height: 150vh;
+/* 100 */
+}
+
+/* contents_1 */
+
+.contents_1 {
+    background-color: lightgrey;
+    height: 50vh;
+    overflow: auto;
+}
+
+
+
+.event {
+    text-align: center;
+    font-family: 'Lucida Handwriting', cursive;
+    font-size: 20px;
+    padding: 5% auto 0;
+    margin-bottom: 5%;
+}
+
+.data_container_wrapper {
+    display: flex;
+    justify-content: space-around;
+  /*  padding: 10vh 10vw;*/
+    gap: 5vw;
+    flex-wrap: wrap;
+}
+
+
+.data_container {
+    background-color: black;
+    width: 18vw;
+    height: 20vw;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+
+/* all of button contents_1*/
+.button_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.button_container button {
+    color: white;
+    background-color: black;
+    border: none;
+    margin-bottom: 5vh;
+    font-size: 20px;
+    font-family: 'Lucida Handwriting', cursive;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+
+.button_container button:hover {
+    color: red;
+}
+
+
+/* inside data container */
+.dataUP {
+    color: white;
+    border-bottom: 2px solid red;
+    padding-bottom: 55%;
+    font-size: 20px;
+}
+
+.dataDOWN {
+    color: white;
+    font-size: 20px;
+}
+
+
+.data_container_wrapper a {
+    text-decoration: none;
+}
+
+
+/* contents_2 */ 
+
+.contents_2 {
+    background-color: rgb(176, 91, 176);
+    height: 50vh;
+    overflow: auto;
+}
+
+.c2 {
+    text-align: center;
+    padding: 10vh 0 0;
+    font-family: 'Lucida Handwriting', cursive;
+}
+
+.c2 a {
+    color: blue;
+    font-weight: bold;
+}
+
+
+.c2btn_wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 10vh 0 0;
+}
+
+
+.c2btn_wrapper button {
+    font-family: 'Lucida Handwriting', cursive;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.c2btn_wrapper button:hover {
+    color: red;
+}
+
+
+/* contents_3 */
+.contents_3 {
+    background-color: lightgrey;
+    height: 50vh;
+    overflow: auto;
+}
+
+.contents_3 p {
+    font-size: 20px;
+    font-family: 'Lucida Handwriting', cursive;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+
+.c3_flex_container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.c3_data_container {
+    background-color: black;
+    height: 40vh;
+    width: 20vw;
+    color: white;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.c3_data_container p {
+    font-family: 'Lucida Handwriting', cursive;
+    font-size: 15px;
+    padding-top: 5%;
+}
+
+
+.c3_data_container ul {
+    list-style-type: disc;
+    color: white;
+    padding-top: 3%;
+}
+
+
+.c3_data_container ul li {
+    font-family: 'Lucida Handwriting', cursive;
+    margin: 0 0 5px 20px;
+}
+
+
+.c3_data_container ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+.c3_data_container ul li a:hover {
+    color: red;
+}
+
+
+
+
+footer {
+    background-color: dodgerblue;
+    grid-area: footer;
+}
+
+
+
+
+
+
+
+
+
