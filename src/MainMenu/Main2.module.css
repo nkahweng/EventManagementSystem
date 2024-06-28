@@ -271,6 +271,7 @@ h2 {
     color: white;
     border-radius: 5px;
     overflow: auto;
+    gap: 5vw;
 }
 
 .c3_data_container p {
@@ -325,7 +326,6 @@ footer {
     font-family: 'Lucida Handwriting', cursive;
     font-size: 15px;
 }
-
 
 
 
