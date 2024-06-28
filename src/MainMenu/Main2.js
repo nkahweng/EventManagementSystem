@@ -186,21 +186,12 @@ export default function Main2(){
                 </div>
 
                 
-              
-              
-              
-              
-              
-              
-              
-              
-              
               </section>
 
               
         
               <footer>
-                footer
+                <div className={MainStyle.footer_flex}>Copyright © 2024 Events2U</div>
               </footer>
            </div>
         </>

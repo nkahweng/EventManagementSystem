@@ -189,12 +189,12 @@ h2 {
     color: white;
     border-bottom: 2px solid red;
     padding-bottom: 55%;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .dataDOWN {
     color: white;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 
@@ -307,14 +307,24 @@ h2 {
 }
 
 
-
+/* footer */
 
 footer {
-    background-color: dodgerblue;
+    background-color: black;
     grid-area: footer;
+    z-index: 0;
+
 }
 
-
+.footer_flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    font-family: 'Lucida Handwriting', cursive;
+    font-size: 15px;
+}
 
 
 
