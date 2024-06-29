@@ -329,7 +329,7 @@ footer {
 
 
 
-/* phones */
+/* phones and tablets*/
 @media only screen and (min-height: 740px) {
     .grid_container {
        grid-template-areas: 
