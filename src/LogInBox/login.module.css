@@ -29,6 +29,7 @@ form {
     background-image: url('./minimalist.jpg'); 
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 
