@@ -30,21 +30,22 @@ export default function LogInBox(){
     return (
         <>
          <div className={login.container}>
-            <form onSubmit={handleSubmit}>
-                <h2 className={login.words}>Log In now !!!</h2>
+           <div className={login.box}>
+              <form onSubmit={handleSubmit}>
+                  <h2 className={login.words}>Log In now !!!</h2>
                 
-                <label className={login.words} for='username'>Username:</label><br/>
-                  <input type="text" id="username" name="username" onChange={handleChange} value={userData.Username} required></input><br/>
+                 <label className={login.words} for='username'>Username:</label><br/>
+                    <input type="text" id="username" name="username" onChange={handleChange} value={userData.Username} required></input><br/>
 
-                <label className={login.words} for='email'>Email:</label><br/>
-                  <input type="email" id="email" name="email" onChange={handleChange} value={userData.Email} required></input><br/>
+                  <label className={login.words} for='email'>Email:</label><br/>
+                   <input type="email" id="email" name="email" onChange={handleChange} value={userData.Email} required></input><br/>
         
-                <label className={login.words} for='password'>Password:</label><br/>
-                  <input type="password" id="password" name="password" onChange={handleChange} value={userData.Password} required></input><br/><br/>
+                  <label className={login.words} for='password'>Password:</label><br/>
+                   <input type="password" id="password" name="password" onChange={handleChange} value={userData.Password} required></input><br/><br/>
 
-                <button type='submit'>Log In</button>
-
-            </form>
+                  <button type='submit'>Log In</button>
+               </form>
+            </div>
          </div>
         </>
     )

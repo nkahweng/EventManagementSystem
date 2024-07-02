@@ -3,31 +3,32 @@
   font-family: 'Lucida Handwriting', cursive
 }
 
+.box {
+    width: 30%;
+    height: 50%;
+}
+
+
 form {
     text-align: center;
-    border: 6px solid , black;
-    margin-top: 100px;
-    margin-bottom: 400px;
+    border: 6px solid black;
+    margin-top: 0;
+    margin-bottom: 0;
     margin-right: auto;
     margin-left: auto;
     background-color: white;
     border-radius: 20px;
-    width: 30%; 
-    height: 40%;
+    overflow: auto;
 }
 
 .container {
     display: grid;
     place-items: center;
     height: 100vh;
-    overflow: auto;
-}
 
-
-body {
-    background-image: url('./minimalist.jpg');
+    background-image: url('./minimalist.jpg'); 
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 
