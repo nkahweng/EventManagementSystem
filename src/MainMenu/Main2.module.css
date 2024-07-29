@@ -313,8 +313,7 @@ h2 {
 footer {
     background-color: black;
     grid-area: footer;
-    z-index: 0;
-
+    z-index: 0;   
 }
 
 .footer_flex {
